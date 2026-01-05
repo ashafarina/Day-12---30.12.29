@@ -1,0 +1,13 @@
+s = input("Enter string: ")
+
+print("1.Upper 2.Lower 3.Reverse")
+ch = int(input())
+
+if ch == 1:
+    print(s.upper())
+elif ch == 2:
+    print(s.lower())
+elif ch == 3:
+    print(s[::-1])
+else:
+    print("Invalid choice")
